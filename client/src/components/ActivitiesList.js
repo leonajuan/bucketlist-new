@@ -11,7 +11,6 @@ function ActivitiesList({ activities }) {
 
   return (
     <div className="cards">
-      <h2>Things To Do: </h2>
       <li className="activities-list">{activitiesComponents}</li>
     </div>
   )
