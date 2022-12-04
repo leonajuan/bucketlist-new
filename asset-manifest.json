@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bucketlist-new/static/css/main.c4f6d3dc.css",
+    "main.js": "/bucketlist-new/static/js/main.2d2e0905.js",
+    "index.html": "/bucketlist-new/index.html",
+    "main.c4f6d3dc.css.map": "/bucketlist-new/static/css/main.c4f6d3dc.css.map",
+    "main.2d2e0905.js.map": "/bucketlist-new/static/js/main.2d2e0905.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4f6d3dc.css",
+    "static/js/main.2d2e0905.js"
+  ]
+}
