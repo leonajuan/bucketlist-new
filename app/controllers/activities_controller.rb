@@ -14,10 +14,23 @@ class ActivitiesController < ApplicationController
     end
   end
 
+  def create
+    activity = Activity.create(activity_params)
+    if activity.valid? 
+      render json: activity, status: :created
+    else
+      render json: { errors: activity.errors.full_messages }, status: :unprocessable_entity
+    end
+  end
+
   private
 
   def find_activity
     Activity.find_by(id: params[:id])
+  end
+
+  def activity_params
+    params.permit(:name, :location, :address, :image, :completed)
   end
 
 end
