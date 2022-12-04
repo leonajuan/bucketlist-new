@@ -2,10 +2,11 @@ function Activity({ activity }) {
 
   return (
     <div className="card">
-      <h2>{activity.name}</h2>
+      <h2 className="card-name">{activity.name}</h2>
       <img className="activity-image" src={activity.image} alt={activity.name} />
-      <h3>{activity.location}</h3>
-      <h4>{activity.address}</h4>
+      <h3 className="card-location">{activity.location}</h3>
+      <h4 className="card-address">{activity.address}</h4>
+      <p className="card-completed">{activity.show_completed}</p>
     </div>
   )
 }
