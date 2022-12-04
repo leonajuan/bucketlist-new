@@ -1,10 +1,15 @@
-* {
-  background-color:#F9F0F0;;
+.app {
+  background-color:#F9F0F0;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  height: 100%;
 }
 
 .header {
   text-align: center;
   text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .activity-image {
@@ -56,4 +61,85 @@
   margin-top: 5px;
   font-weight: 200;
   font-size: 14px;
+}
+
+.form-div {
+  border: solid 5px white;
+  box-shadow: 3px 2px 22px 10px rgba(44, 42, 43, 0.235);
+  margin-top: 25px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.form input {
+  padding-top: 5px;
+  margin-top: 10px;
+  width: 500px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.form label {
+  margin-top: 10px;
+}
+
+
+.form button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  background-color: rgba(62, 62, 62, 0.624);
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  height: 25px;
+  border-radius: 3px;
+}
+
+.form-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  text-transform: lowercase;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 8px;
+  color: black;
+}
+
+.navbar a:hover{
+  color:  #FF327C;
+  font-style: italic;
+  font-weight: 700;
 }

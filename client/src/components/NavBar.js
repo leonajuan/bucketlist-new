@@ -1,8 +1,10 @@
 function NavBar() {
   return (
-    <nav>
-      <a href="/bucketlist-new/">Home</a>
-      <a href="/bucketlist-new/new">Add an Activity</a>
+    <nav className="navbar">
+      <ul className="navbar-items">
+        <li><a href="/">Home</a></li>
+        <li><a href="/new">Add an Activity</a></li>
+      </ul>
     </nav>
   )
 }

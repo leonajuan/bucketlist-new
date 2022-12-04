@@ -20,14 +20,14 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="app">
+        <Header />
+        <NavBar />
         <Switch>
           <Route path="/new">
             <NewActivityForm />
           </Route>
           <Route path="/">
-            <Header />
-            <NavBar />
             <ActivitiesList activities={activities} />
           </Route>
         </Switch>
